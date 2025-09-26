@@ -1,0 +1,17 @@
+# Flask API Dependencies for Fashion Item Classification Service
+# These packages are required to run the REST API server
+
+# Web framework
+flask==3.0.0
+gunicorn==21.2.0  # Production WSGI HTTP server
+
+# Machine learning and image processing
+torch==2.7.1  # Match main requirements
+torchvision==0.22.1  # Match main requirements
+Pillow==10.3.0  # Match main requirements
+
+# Data handling
+numpy==1.26.4  # Match main requirements
+
+# API utilities
+requests==2.31.0

@@ -1,0 +1,18 @@
+grad-cam==1.5.5
+matplotlib==3.9.0
+numpy==1.26.4
+opencv_python==4.11.0.86
+pandas==2.0.3
+Pillow==10.3.0
+scikit-learn==1.5.0
+seaborn==0.13.2
+torch==2.7.1  # torch==2.7.1+cu118 for CUDA 11.8
+torchvision==0.22.1  # torchvision==0.22.1+cu118 for CUDA 11.8
+tqdm==4.67.1
+pymupdf==1.24.9
+pytest==8.2.0
+
+# API and utilities
+flask==3.0.0
+gunicorn==21.2.0  # Production WSGI HTTP server
+requests==2.31.0  # HTTP client for API calls/batch client
